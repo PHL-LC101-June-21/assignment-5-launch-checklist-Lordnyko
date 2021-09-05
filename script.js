@@ -36,6 +36,5 @@ window.addEventListener("load", function () {
         let cargoMassInput = document.querySelector("input[name=cargoMass]");
         let list = document.getElementById('faultyItems');
         formSubmission(document, list, pilotInput, copilotInput, fuelLevelInput, cargoMassInput);
-        // addDestinationInfo(document, name, diameter, star, distance, moons, imageUrl);
     });
 });
