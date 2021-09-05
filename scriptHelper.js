@@ -27,17 +27,6 @@ function validateInput(testInput) {
     }
 }
 
-// function validateInput(testInput) {
-//     testInput = document.getElementsByClassName("formField");
-//     for (let element in testInput) {
-//         if (!element.value) {
-//             return "Empty";
-//         } else if (isNan(element.value)) {
-//             return "Not a Number";
-//         } else {
-//             return "Is a Number";
-//         }
-//     }
 
 function formSubmission(document, list, pilot, copilot, fuelLevel, cargoMass) {
     console.log("Form has been submitted");
@@ -48,17 +37,6 @@ function formSubmission(document, list, pilot, copilot, fuelLevel, cargoMass) {
         else if (validateInput(fuelLevel) === "Not a Number" || validateInput(cargoMass) === "Not a Number") {
         alert("Please enter valid input.");
     }
-
-
-    // function formSubmission(document, list, pilot, copilot, fuelLevel, cargoLevel) {
-    //     if (validateInput(pilot) === "Empty" || validateInput(copilot) === "Empty" ||
-    //         validateInput(fuelLevel) === "Empty" || validateInput(cargoLevel) === "Empty") {
-    //         alert("All fields are required.  Please fill in all boxes.");
-    //     } else if (validateInput(fuelLevel) === "Not a Number" || validateInput(cargoLevel) === "Not a Number") {
-    //         alert("Please enter valid input.");
-    //     }
-    // let pilotStatus = document.getElementById("pilotStatus");
-    // let copilotStatus = document.getElementById("copilotStatus");
 
 
     let pilotStatus = document.getElementById("pilotStatus");
